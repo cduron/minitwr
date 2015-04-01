@@ -1,5 +1,50 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1 WELCOME
+	#menu
+		#choix
+			p.
+				Write
+		#choix
+			p.
+				Favorites
+		#choix
+			p.
+				Search
+		#choix
+			p.
+				Profile
+	#login
+		form
+			| Username:
+			br
+			input(type='text' name='username')
+			br
+			| Password:
+			br
+			input(type='password' name='password')
+			br
+			input(type='button' value='Log in')
+	#subscribe
+		form
+			| Username:
+			br
+			input(type='text' name='username')
+			br
+			| Email:
+			br
+			input(type='text' name='email')
+			br
+			| Password:
+			br
+			input(type='password' name='password')
+			br
+			| Confirm:
+			br
+			input(type='password' name='password')
+			br
+			input(type='button' value='Subscribe')
+	#news
+		p
+			blaahhhhhhhhhhh
