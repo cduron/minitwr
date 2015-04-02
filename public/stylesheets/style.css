@@ -1,14 +1,25 @@
 body {
 	padding: 50px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background-color : rgb(155,155,155); 
+	background: rgb(155,155,155) url('/images/background.jpg') repeat; 
 }
 
 h1 {
 	color: #F4D4AB;
-	text-align: center;
+	text-align: right;
 	margin-top: 4%;
 	font-size: 50px;
+}
+
+span {
+	color: #FFAB91;
+	font-size: 60px;
+}
+
+span:hover {
+	color: #FF8F73;
+	border-bottom: 3px solid #FF8F73;
+	font-size: 70px;
 }
 
 #menu {
@@ -22,6 +33,7 @@ h1 {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index:10;
 }
 
 #choix {
@@ -39,6 +51,49 @@ h1 {
 	font-weight : 800;
 }
 
+#tweets {
+	display: inline-block;
+	border: 2px solid #7D7D7D;
+	border-radius: 10px;
+	float: right;
+	position: relative;
+	width: 75%;
+	height: 1000px;
+	margin: 0,5% 0 0.5% 0;
+}
+
+#tweet {
+	background-color: rgba(255,197,179,0.75);
+	border: 1px solid #7D7D7D;
+	border-radius: 10px;
+	color: #7D7D7D;
+	margin: 1%;
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+
+#tweet h2 {
+	color: #7D7D7D;
+	font-style: italic;
+}
+
+#tweet p {
+	text-align: center;
+}
+
+#presentation {
+	text-align: center;
+	height: 15%;
+	width: 20%;
+	border: 2px solid #7D7D7D;
+	border-radius: 10px;
+	background-color: #F4D4AB;
+	color: #7D7D7D;
+	font-weight : 800;
+	margin: 1% 0 1% 0;
+	clear: left;
+}
+
 #login {
 	text-align: center;
 	height: 15%;
@@ -49,9 +104,10 @@ h1 {
 	color: #7D7D7D;
 	font-weight : 800;
 	margin: 1% 0 1% 0;
+	clear: left;
 }
 
-#subscribe {
+#signup {
 	text-align: center;
 	height: 15%;
 	width: 20%;
@@ -61,6 +117,7 @@ h1 {
 	color: #7D7D7D;
 	font-weight : 800;
 	margin: 1% 0 1% 0;
+	clear: left;
 }
 
 #news {
@@ -73,4 +130,19 @@ h1 {
 	color: #7D7D7D;
 	font-weight : 800;
 	margin: 1% 0 1% 0;
+	clear: left;
+}
+
+.case {
+	background: #F4DDBF;
+	color: #7D7D7D;
+	width: 80%;
+	border: 2px solid #7D7D7D;
+	border-radius: 10px;
+}
+
+.bouton {
+	background: #FFC5B3;
+	border: 2px solid #7D7D7D;
+	border-radius: 15px;
 }

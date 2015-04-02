@@ -1,7 +1,9 @@
 extends layout
 
 block content
-	h1 WELCOME
+	h1 
+		| WELCOME TO 
+		span OXOX
 	#menu
 		#choix
 			p.
@@ -15,36 +17,54 @@ block content
 		#choix
 			p.
 				Profile
+	#tweets
+		#tweet
+			h2.
+				Test
+			p.
+				Ma Magie va vous mettre en pièce.
+		#tweet
+			p.
+				Heureux de vous rencontrer.
+		#tweet
+			p.
+				Votre âme va souffrir.
+
+	#presentation
+		p.
+			Ce site a la classe. </br>
+			Je suis d'accord.
 	#login
 		form
 			| Username:
 			br
-			input(type='text' name='username')
+			input.case(type='text' name='username' style="autocomplete: on")
 			br
 			| Password:
 			br
-			input(type='password' name='password')
+			input.case(type='password' name='password')
 			br
-			input(type='button' value='Log in')
-	#subscribe
+			input.bouton(type='button' value='►')
+	#signup
 		form
 			| Username:
 			br
-			input(type='text' name='username')
+			input.case(type='text' name='username')
 			br
 			| Email:
 			br
-			input(type='text' name='email')
+			input.case(type='email' name='email')
 			br
 			| Password:
 			br
-			input(type='password' name='password')
+			input.case(type='password' name='password')
 			br
 			| Confirm:
 			br
-			input(type='password' name='password')
+			input.case(type='password' name='password')
 			br
-			input(type='button' value='Subscribe')
+			input.bouton(type='button' value='►')
 	#news
-		p
+		p.
 			blaahhhhhhhhhhh
+	
