@@ -1,7 +1,8 @@
 body {
 	padding: 50px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background: rgb(155,155,155) url('/images/background.jpg') repeat; 
+	background: rgb(155,155,155) url('/images/background.jpg') repeat;
+	color: white;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 	font-size: 50px;
 }
 
-span {
+h1 span {
 	color: #FFAB91;
 	font-size: 60px;
 }
@@ -19,6 +20,9 @@ span {
 span:hover {
 	color: #FF8F73;
 	border-bottom: 3px solid #FF8F73;
+}
+
+h1 span:hover{
 	font-size: 70px;
 }
 
@@ -56,20 +60,18 @@ span:hover {
 	border: 2px solid #7D7D7D;
 	border-radius: 10px;
 	float: right;
-	position: relative;
 	width: 75%;
 	height: 1000px;
-	margin: 0,5% 0 0.5% 0;
+	margin-bottom: 1%;
 }
 
 #tweet {
-	background-color: rgba(255,197,179,0.75);
+	background-color: #F8D4A4;
 	border: 1px solid #7D7D7D;
 	border-radius: 10px;
 	color: #7D7D7D;
 	margin: 1%;
-	padding-left: 2%;
-	padding-bottom: 1%;
+	padding: 1%;
 }
 
 #tweet h2 {
@@ -133,16 +135,50 @@ span:hover {
 	clear: left;
 }
 
+#footer {
+	color: #F4D4AB;
+	border-top: 4px solid #F4D4AB;
+	border-bottom: 4px solid #F4D4AB;
+	clear: both;
+	border-radius: 10px;
+	text-align: center;
+	font-style: italic;
+}
+
+#footer span {
+	color: #FFAB91;
+}
+
 .case {
 	background: #F4DDBF;
 	color: #7D7D7D;
 	width: 80%;
 	border: 2px solid #7D7D7D;
 	border-radius: 10px;
+	padding: 0 2% 0 2%;
+}
+
+.texte {
+	background: #F4DDBF;
+	color: #7D7D7D;
+	width: 99%;
+	border: 2px solid #7D7D7D;
+	border-radius: 10px;
+	margin-bottom: 0.5%;
+	padding: 0.2% 0.5% 0.2% 0.5%;
 }
 
 .bouton {
 	background: #FFC5B3;
 	border: 2px solid #7D7D7D;
 	border-radius: 15px;
+}
+
+.send {
+	background: #FFC5B3;
+	border: 2px solid #7D7D7D;
+	border-radius: 15px;
+	float: right;
+	margin-right: 8%;
+	font-style: italic;
 }

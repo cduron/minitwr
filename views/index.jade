@@ -1,9 +1,10 @@
 extends layout
 
 block content
-	h1 
+	h1
 		| WELCOME TO 
 		span OXOX
+
 	#menu
 		#choix
 			p.
@@ -17,23 +18,23 @@ block content
 		#choix
 			p.
 				Profile
+
 	#tweets
 		#tweet
-			h2.
-				Test
-			p.
-				Ma Magie va vous mettre en pièce.
-		#tweet
-			p.
-				Heureux de vous rencontrer.
-		#tweet
-			p.
-				Votre âme va souffrir.
+			form(action='/', method='POST')
+				textarea.texte(name="tweet", rows=3, columns=50)
+				br
+				input.send(type='submit', content='Sends', value='Send')
+
+			ul
+				- each tweet in tweets
+					li= tweet
 
 	#presentation
 		p.
 			Ce site a la classe. </br>
 			Je suis d'accord.
+
 	#login
 		form
 			| Username:
@@ -45,6 +46,7 @@ block content
 			input.case(type='password' name='password')
 			br
 			input.bouton(type='button' value='►')
+
 	#signup
 		form
 			| Username:
@@ -64,7 +66,10 @@ block content
 			input.case(type='password' name='password')
 			br
 			input.bouton(type='button' value='►')
+
 	#news
 		p.
 			blaahhhhhhhhhhh
-	
+	#footer
+		p.
+			<span>Clémence Duron</span> & <span>Cyrielle Endenmann</span> ©2015
