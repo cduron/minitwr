@@ -1,2 +1,4 @@
 #Mini Twr
-je suis la
+
+  - Barre de MENU : Pas encore fonctionelle (Write, Favorites, Search, Profile)
+  - LOG IN et SIGN UP : pas encore fonctionnels
