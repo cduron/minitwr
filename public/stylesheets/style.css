@@ -70,17 +70,9 @@ h1 span:hover{
 	border: 1px solid #7D7D7D;
 	border-radius: 10px;
 	color: #7D7D7D;
-	margin: 1%;
+	margin: 2%;
 	padding: 1%;
-}
-
-#tweet h2 {
-	color: #7D7D7D;
-	font-style: italic;
-}
-
-#tweet p {
-	text-align: center;
+	clear: right;
 }
 
 #presentation {
@@ -161,10 +153,10 @@ h1 span:hover{
 .texte {
 	background: #F4DDBF;
 	color: #7D7D7D;
-	width: 99%;
+	width: 97.5%;
 	border: 2px solid #7D7D7D;
 	border-radius: 10px;
-	margin-bottom: 0.5%;
+	margin: 0.5%;
 	padding: 0.2% 0.5% 0.2% 0.5%;
 }
 
@@ -179,6 +171,6 @@ h1 span:hover{
 	border: 2px solid #7D7D7D;
 	border-radius: 15px;
 	float: right;
-	margin-right: 8%;
+	margin: 0 8% 2% 0;
 	font-style: italic;
 }

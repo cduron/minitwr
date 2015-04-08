@@ -20,15 +20,14 @@ block content
 				Profile
 
 	#tweets
-		#tweet
-			form(action='/', method='POST')
-				textarea.texte(name="tweet", rows=3, columns=50)
-				br
-				input.send(type='submit', content='Sends', value='Send')
+		form(action='/', method='POST')
+			textarea.texte(name="tweet", rows=3, columns=50)
+			br
+			input.send(type='submit', content='Sends', value='Send')
 
-			ul
-				- each tweet in tweets
-					li= tweet
+		ul
+			- each tweet in tweets
+				#tweet= tweet
 
 	#presentation
 		p.
