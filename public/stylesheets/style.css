@@ -1,176 +1,89 @@
 body {
-	padding: 50px;
+	padding-top: 60px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background: rgb(155,155,155) url('/images/background.jpg') repeat;
+	background: rgb(85,85,85);
 	color: white;
 }
 
-h1 {
-	color: #F4D4AB;
-	text-align: right;
-	margin-top: 4%;
-	font-size: 50px;
+.navbar {
+	border-bottom: 2px solid #A28AA4;
 }
 
-h1 span {
-	color: #FFAB91;
-	font-size: 60px;
+.navbar-brand {
+	font-size: 20px;
+	background-color: #614C63;
 }
 
-span:hover {
-	color: #FF8F73;
-	border-bottom: 3px solid #FF8F73;
+.nav.navbar-nav {
+	margin: 0 0.5% 0 0.5%;
+	width: 10%;
 }
 
-h1 span:hover{
-	font-size: 70px;
-}
-
-#menu {
-	height: 10%;
+.menu {	
 	width: 100%;
-	border-radius: 10px;
-	background-color: #F4DDBF;
 	text-align: center;
-	display: table;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index:10;
+	background-color: black;
 }
 
-#choix {
-	height: 45px;
-	width: 20%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	margin: 1%;
-	display: inline-block;
-	background-color: #F4D4AB;
-}
-
-#choix p {
-	color: #7D7D7D;
-	font-weight : 800;
-}
-
-#tweets {
-	display: inline-block;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	float: right;
-	width: 75%;
-	height: 1000px;
-	margin-bottom: 1%;
-}
-
-#tweet {
-	background-color: #F8D4A4;
-	border: 1px solid #7D7D7D;
-	border-radius: 10px;
-	color: #7D7D7D;
-	margin: 2%;
-	padding: 1%;
-	clear: right;
-}
-
-#presentation {
+#loginhead {
+	border-bottom: 2px solid #A28AA4;
 	text-align: center;
-	height: 15%;
-	width: 20%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	background-color: #F4D4AB;
-	color: #7D7D7D;
-	font-weight : 800;
-	margin: 1% 0 1% 0;
-	clear: left;
+	margin-bottom: 10px;
 }
 
 #login {
 	text-align: center;
-	height: 15%;
-	width: 20%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	background-color: #F4D4AB;
-	color: #7D7D7D;
-	font-weight : 800;
-	margin: 1% 0 1% 0;
-	clear: left;
+}
+
+#signuphead {
+	text-align: center;
+	border-bottom: 2px solid #A28AA4;
+	margin-bottom: 10px;
 }
 
 #signup {
 	text-align: center;
-	height: 15%;
-	width: 20%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	background-color: #F4D4AB;
-	color: #7D7D7D;
-	font-weight : 800;
-	margin: 1% 0 1% 0;
-	clear: left;
-}
-
-#news {
-	text-align: center;
-	height: 15%;
-	width: 20%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	background-color: #F4D4AB;
-	color: #7D7D7D;
-	font-weight : 800;
-	margin: 1% 0 1% 0;
-	clear: left;
-}
-
-#footer {
-	color: #F4D4AB;
-	border-top: 4px solid #F4D4AB;
-	border-bottom: 4px solid #F4D4AB;
-	clear: both;
-	border-radius: 10px;
-	text-align: center;
-	font-style: italic;
-}
-
-#footer span {
-	color: #FFAB91;
 }
 
 .case {
-	background: #F4DDBF;
-	color: #7D7D7D;
-	width: 80%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	padding: 0 2% 0 2%;
+	color: black;
 }
 
-.texte {
-	background: #F4DDBF;
-	color: #7D7D7D;
-	width: 97.5%;
-	border: 2px solid #7D7D7D;
-	border-radius: 10px;
-	margin: 0.5%;
-	padding: 0.2% 0.5% 0.2% 0.5%;
+#login form button {
+	margin: 3px;
 }
 
-.bouton {
-	background: #FFC5B3;
-	border: 2px solid #7D7D7D;
-	border-radius: 15px;
+#signup form button {
+	margin: 3px;
+}
+
+#tweets {
+	min-height: 810px;
+}
+
+#tweet {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	clear: both;
+	border-radius: 5px;
+	margin: 1px;
 }
 
 .send {
-	background: #FFC5B3;
-	border: 2px solid #7D7D7D;
-	border-radius: 15px;
+	border-radius: 5px;
 	float: right;
-	margin: 0 8% 2% 0;
-	font-style: italic;
+	margin: 2px;
+}
+
+.texte {
+	width: 100%;
+	color: black;
+	border-radius: 5px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	border-top: 2px solid #A28AA4;
+	border-radius: 5px;
 }
