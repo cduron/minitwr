@@ -5,6 +5,59 @@ body {
 	color: white;
 }
 
+/* ID */
+/* Log in */
+#loginhead {
+	border-bottom: 2px solid #A28AA4;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#login {
+	text-align: center;
+}
+
+#login form button {
+	margin: 3px;
+}
+
+/*Sign up */
+#signuphead {
+	text-align: center;
+	border-bottom: 2px solid #A28AA4;
+	margin-bottom: 10px;
+}
+
+#signup {
+	text-align: center;
+}
+
+#signup form button {
+	margin: 3px;
+}
+
+/* Tweets */
+#tweets {
+	min-height: 810px;
+}
+
+#tweet {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	clear: both;
+	border-radius: 5px;
+	margin: 1px;
+}
+
+/* Footer */
+#footer {
+	clear: both;
+	text-align: center;
+	border-top: 2px solid #A28AA4;
+	border-radius: 5px;
+}
+
+/*Barre de nabigation */
 .navbar {
 	border-bottom: 2px solid #A28AA4;
 }
@@ -19,71 +72,28 @@ body {
 	width: 10%;
 }
 
+/* Menu de la barre de navigation */
 .menu {	
 	width: 100%;
 	text-align: center;
 	background-color: black;
 }
 
-#loginhead {
-	border-bottom: 2px solid #A28AA4;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-#login {
-	text-align: center;
-}
-
-#signuphead {
-	text-align: center;
-	border-bottom: 2px solid #A28AA4;
-	margin-bottom: 10px;
-}
-
-#signup {
-	text-align: center;
-}
-
+/* Zone de texte log in et sign up */
 .case {
 	color: black;
 }
 
-#login form button {
-	margin: 3px;
-}
-
-#signup form button {
-	margin: 3px;
-}
-
-#tweets {
-	min-height: 810px;
-}
-
-#tweet {
-	border: 1px solid #7D7D7D;
-	background-color: #A28AA4;
-	clear: both;
-	border-radius: 5px;
-	margin: 1px;
-}
-
+/* Zone de texte tweet */
 .send {
 	border-radius: 5px;
 	float: right;
 	margin: 2px;
 }
 
+/* Tweets envoyés */
 .texte {
 	width: 100%;
 	color: black;
-	border-radius: 5px;
-}
-
-#footer {
-	clear: both;
-	text-align: center;
-	border-top: 2px solid #A28AA4;
 	border-radius: 5px;
 }
