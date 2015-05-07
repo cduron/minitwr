@@ -34,12 +34,17 @@ block content
 
 	#main.col-md-10.col-xs-10
 		h2.
-			New messages
-		form(action='/', method='POST')
-			textarea.texte(name="tweet", rows=5)
-			button.btn.btn-default(type='submit', content='Sends', class='send')
-				span.glyphicon.glyphicon-edit(aria-hidden='true')
-
+			Favorites
+		#favorites
+			h3.
+				Sorry... :(
+			p.
+				Like we told you in our presentation, we didn't make "login" part, so it's pretty difficult to know the user's favorites are. So we just made
+				an history of all tweets.
+			p.
+				Again, maybe later ;)
+		h2.
+			History
 		ul
 			- each tweet in tweets
 				#tweet.col-md-10.col-xs-10= tweet

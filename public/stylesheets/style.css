@@ -36,17 +36,53 @@ body {
 	margin: 3px;
 }
 
-/* Tweets */
-#tweets {
+/* Mise en page */
+#main {
 	min-height: 810px;
 }
 
+/* Tweets */
 #tweet {
 	border: 1px solid #7D7D7D;
 	background-color: #A28AA4;
 	clear: both;
 	border-radius: 5px;
 	margin: 1px;
+}
+
+/* About us */
+#ourproject {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	border-radius: 5px;
+	margin: 1px;
+	padding: 10px;
+}
+
+#comment {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	clear: both;
+	border-radius: 5px;
+	margin: 1px;
+}
+
+/* Favorites */
+#favorites {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	border-radius: 5px;
+	margin: 1px;
+	padding: 10px;
+}
+
+/* Profile */
+#profile {
+	border: 1px solid #7D7D7D;
+	background-color: #A28AA4;
+	border-radius: 5px;
+	margin: 1px;
+	padding: 10px;
 }
 
 /* Footer */

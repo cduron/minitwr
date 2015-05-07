@@ -34,15 +34,34 @@ block content
 
 	#main.col-md-10.col-xs-10
 		h2.
-			New messages
-		form(action='/', method='POST')
-			textarea.texte(name="tweet", rows=5)
-			button.btn.btn-default(type='submit', content='Sends', class='send')
-				span.glyphicon.glyphicon-edit(aria-hidden='true')
+			About us
+		#ourproject
+			h3.
+				Hi !
+			p.
+				That's our brand new project for our web programmation class and we are happy to present you that cute imitation of Twitter. As you could see we 
+				haven't finish yet the "login" part, so there are many features that you can't test for now, maybe try again later !
 
-		ul
-			- each tweet in tweets
-				#tweet.col-md-10.col-xs-10= tweet
+			p.
+				We hope you enjoy the design and if you want to contact us in order to give us your opinion or some advices, leave us a comment, we will be glad to
+				know what you are thinking about our site !
+
+			p.
+				Thank you !! Have a nice day !
+
+			p. 
+				Cyssou et Clemchou
+		#comments
+			h2.
+				Comments
+			form(action='/minitwr', method='POST')
+				textarea.texte(name="comment", rows=5)
+				button.btn.btn-default(type='submit', content='Sends', class='send')
+					span.glyphicon.glyphicon-edit(aria-hidden='true')
+
+			ul
+				- each comment in comments
+					#comment.col-md-10.col-xs-10= comment
 
 	#loginhead.col-md-2.col-xs-2
 		h2.
