@@ -47,7 +47,8 @@ body {
 	background-color: #A28AA4;
 	clear: both;
 	border-radius: 5px;
-	margin: 1px;
+	margin: 3px;
+	word-wrap: break-word;
 }
 
 /* About us */
@@ -64,7 +65,9 @@ body {
 	background-color: #A28AA4;
 	clear: both;
 	border-radius: 5px;
-	margin: 1px;
+	margin: 3px;
+	padding-top : 5px; 
+	word-wrap: break-word;
 }
 
 /* Favorites */
@@ -90,9 +93,17 @@ body {
 	clear: both;
 	text-align: center;
 	border-top: 2px solid #A28AA4;
-	border-radius: 5px;
 }
 
+/* Heure Tweet */
+#heure {
+	text-align : right;
+	font-style : italic;
+	clear: both;
+	border-top: 1px solid white;
+	border-radius: 1px;
+	margin-top : 5px;
+}
 /*Barre de nabigation */
 .navbar {
 	border-bottom: 2px solid #A28AA4;
@@ -118,6 +129,7 @@ body {
 /* Zone de texte log in et sign up */
 .case {
 	color: black;
+	border-radius: 5px;
 }
 
 /* Zone de texte tweet */

@@ -50,7 +50,8 @@ block content
 				Thank you !! Have a nice day !
 
 			p. 
-				Cyssou et Clemchou
+				Cyrielle & Clémence
+
 		#comments
 			h2.
 				Comments
@@ -61,7 +62,11 @@ block content
 
 			ul
 				- each comment in comments
-					#comment.col-md-10.col-xs-10= comment
+					#comment.col-md-10.col-xs-10 #{comment.text}
+						#heure
+							script(language='JavaScript').
+								var maintenant = new Date(#{comment.date}).toLocaleString();
+								document.write("Le " + maintenant);
 
 	#loginhead.col-md-2.col-xs-2
 		h2.
@@ -86,7 +91,7 @@ block content
 
 	#signup.col-md-2.col-xs-2
 		p.
-			Not register yet ?
+			Not registered yet ?
 		p.
 			Sign up ! It's free !
 		br

@@ -42,7 +42,11 @@ block content
 
 		ul
 			- each tweet in tweets
-				#tweet.col-md-10.col-xs-10= tweet
+				#tweet.col-md-10.col-xs-10 #{tweet.text}
+					#heure
+						script(language='JavaScript').
+							var maintenant = new Date(#{tweet.date}).toLocaleString();
+							document.write("Le " + maintenant);
 
 	#loginhead.col-md-2.col-xs-2
 		h2.
@@ -67,7 +71,7 @@ block content
 
 	#signup.col-md-2.col-xs-2
 		p.
-			Not register yet ?
+			Not registered yet ?
 		p.
 			Sign up ! It's free !
 		br
@@ -90,6 +94,8 @@ block content
 			br
 			button.btn.btn-default(type='submit')
 				span.glyphicon.glyphicon-check(aria-hidden='true')
+
+	
 
 	#footer
 		p.
