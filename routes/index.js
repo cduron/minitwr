@@ -85,14 +85,14 @@ router.post('/minitwr', function(req, res, next) {
 	var date = new Date().getTime();
 	if (previousComment == {}) {
 		previousComment = {text: req.body.comment, date: date};
-		tweets.unshift({
+		comments.unshift({
 				text: req.body.comment,
 				date: date
 		});
 	} else {
 		if (previousComment.text != req.body.comment) {
 			previousComment = {text: req.body.comment, date: date};
-			tweets.unshift({
+			comments.unshift({
 					text: req.body.comment,
 					date: date
 			});

@@ -95,6 +95,15 @@ body {
 	border-top: 2px solid #A28AA4;
 }
 
+#footer a {
+	color: #A28AA4;
+}
+
+#footer a:hover {
+	color: white;
+	font-weight: bold;
+}
+
 /* Heure Tweet */
 #heure {
 	text-align : right;

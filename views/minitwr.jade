@@ -56,7 +56,7 @@ block content
 			h2.
 				Comments
 			form(action='/minitwr', method='POST')
-				textarea.texte(name="comment", rows=5)
+				textarea.texte(name="comment", rows=5, placeholder='Leave us a comment...')
 				button.btn.btn-default(type='submit', content='Sends', class='send')
 					span.glyphicon.glyphicon-edit(aria-hidden='true')
 
@@ -117,4 +117,5 @@ block content
 
 	#footer
 		p.
-			<span>Clémence Duron</span> & <span>Cyrielle Endenmann</span> ©2015
+			<a href='https://github.com/cduron' target='_blank' title='Github profile'>Clémence Duron</a> & 
+			<a href='https://github.com/cendenmann' target='_blank' title='Github profile'>Cyrielle Endenmann</a> ©2015
